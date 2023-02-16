@@ -33,7 +33,7 @@ class LinkController extends Controller
             $link->save();
 
             $shorten_link = "tinyus.test/$link->hash";
-            return view('page.index')->with('shorten_link', $shorten_link);
+            return view('index')->with('shorten_link', $shorten_link);
         } else {
             return redirect('/')->with('error', 'Unable to shorten that link. It is not a valid url.');
         }

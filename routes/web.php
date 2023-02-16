@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('page.index');
+    return view('index');
 });
 
 Route::get('/{link}', 'LinkController@decoder');
