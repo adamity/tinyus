@@ -32,7 +32,7 @@
                                 <form action="{!! route('encoder') !!}" method="POST" class="w-100">
                                     {!! csrf_field() !!}
                                     <div class="input-group mb-5">
-                                        <input type="text" class="form-control form-control-lg" name="origin_link" id="origin_link" placeholder="https://example.com/this-url-is-so-long" aria-label="https://example.com/this-url-is-so-long" aria-describedby="submit">
+                                        <input type="text" class="form-control form-control-lg" name="origin_link" id="origin_link" placeholder="https://example.com/this-url-is-too-long" aria-label="https://example.com/this-url-is-too-long" aria-describedby="submit">
                                         <button type="submit" class="btn btn-dark" name="submit" id="submit">Go Tiny!</button>
                                     </div>
                                 </form>
